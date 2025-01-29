@@ -17,8 +17,8 @@ jobs:
           transtype: pdf
           output-path: out
           
-    name: Upload DITA Output to a ZIP file
-      uses: actions/upload-artifact@v2
-      with:
-        name: dita-artifact
-        path: 'out'
+      - name: Upload DITA Output to a ZIP file
+         uses: actions/upload-artifact@v2
+         with:
+           name: dita-artifact
+           path: 'out'
