@@ -23,10 +23,9 @@ jobs:
           name: dita-artifact
           path: 'out'
           
-          
       - name: Deploy DITA Output to GitHub Pages
-        uses: JamesIves/deploy-test-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: deploy-test # The branch the action should deploy to.
+          BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: out # The folder the action should deploy.
