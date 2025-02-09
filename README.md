@@ -1,2 +1,2 @@
 # 00-action-01
-Greetings!
+Greetings! Why does the internal Markdown to DITA fail?
