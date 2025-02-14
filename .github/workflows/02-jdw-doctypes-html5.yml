@@ -13,6 +13,8 @@ jobs:
       - name: Build HTML5
         uses: dita-ot/dita-ot-action@master
         with:
+          plugins: |
+            https://github.com/jdwinfodesign/com.jdwinfodesign.doctypes
           input: document.ditamap
           transtype: html5
           output-path: out
