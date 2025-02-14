@@ -14,7 +14,7 @@ jobs:
         uses: dita-ot/dita-ot-action@master
         with:
           plugins: |
-            https://github.com/jdwinfodesign/com.jdwinfodesign.doctypes-main.zip
+            https://github.com/jdwinfodesign/com.jdwinfodesign.doctypes-main
           input: document.ditamap
           transtype: html5
           output-path: out
